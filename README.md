@@ -16,11 +16,8 @@
 * [ ] mail julien chroniques (+20)
 
 # home
-* [ ] lessive 0 (+10)
 * [ ] lessive 1 (+10)
 * [ ] lessive 2 (+10)
-* [ ] boiler checkup (+10)
-* [ ] call projex (+5)
 * [ ] vaccum clean (+5)
 * [ ] name on ring (+10)
 
@@ -34,6 +31,9 @@
 # art ?
 * [ ] cleanup sulfur (+5)
 * [ ] soldering irons (+10)
+
+# people
+* [ ] colin
 
 ## scoring ? ------------
 ### april
@@ -61,4 +61,9 @@
 ##### wensday 1
 ##### thursday 2
 ##### friday 3
-
+* [x] prospects web (+20)
+* [x] boiler checkup (+10)
+* [x] rdv projex (+5)
+* [x] lessive 0 (+10)
+* [x] vaiselle (+5)
+* [x] call projex (+5)
