@@ -4,6 +4,10 @@
 * did I do some sports ?
 * how many unread email did I end up at the end of the day ? (-5 per email)
 * what about eating ?
+* did I commit to git ?
+* did I read ?
+* did I write ?
+* did I learn ?
 
 
 # me
@@ -12,12 +16,16 @@
 * [ ] mail julien chroniques (+20)
 
 # home
+* [ ] lessive 0 (+10)
+* [ ] lessive 1 (+10)
+* [ ] lessive 2 (+10)
 * [ ] boiler checkup (+10)
 * [ ] call projex (+5)
 * [ ] vaccum clean (+5)
 * [ ] name on ring (+10)
 
 # www
+* [ ] meetup w/ theo (+30)
 
 # astroturf
 
@@ -27,7 +35,7 @@
 * [ ] cleanup sulfur (+5)
 * [ ] soldering irons (+10)
 
-## scoring ?
+## scoring ? ------------
 ### april
 #### week 4
 #### tuesday 30
@@ -51,4 +59,6 @@
 ### may
 #### week 1
 ##### wensday 1
+##### thursday 2
+##### friday 3
 
