@@ -20,6 +20,12 @@
 * [ ] lessive 2 (+10)
 * [ ] vaccum clean (+5)
 * [ ] name on ring (+10)
+* [ ] full house (+20)
+
+# non-a
+* [ ] eukairos ?
+* [ ] billets bx
+
 
 # www
 * [ ] meetup w/ theo (+30)
@@ -67,3 +73,4 @@
 * [x] lessive 0 (+10)
 * [x] vaiselle (+5)
 * [x] call projex (+5)
+##### saturday 4
