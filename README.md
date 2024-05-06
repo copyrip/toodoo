@@ -25,7 +25,7 @@
 # non-a
 * [ ] eukairos ?
 * [ ] billets bx
-
+* [ ] discourse
 
 # www
 * [ ] meetup w/ theo (+30)
@@ -74,3 +74,6 @@
 * [x] vaiselle (+5)
 * [x] call projex (+5)
 ##### saturday 4
+##### sunday 5
+#### week 2
+##### monday 6
