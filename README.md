@@ -14,6 +14,7 @@
 * [ ] cv (+100)
 * [ ] mail julien vdo (+15)
 * [ ] mail julien chroniques (+20)
+* [ ] mail anne marie
 
 # home
 * [ ] name on ring (+10)
