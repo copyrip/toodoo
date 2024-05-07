@@ -16,9 +16,6 @@
 * [ ] mail julien chroniques (+20)
 
 # home
-* [ ] lessive 1 (+10)
-* [ ] lessive 2 (+10)
-* [ ] vaccum clean (+5)
 * [ ] name on ring (+10)
 * [ ] full house (+20)
 
@@ -30,6 +27,8 @@
 # www
 
 # astroturf
+* [ ] call client 15:00
+* [ ] proposition frippe
 
 # mbc
 
@@ -77,5 +76,11 @@
 #### week 2
 ##### monday 6
 * [x] meetup w/ theo (+30)
-##### monday 7
+##### tuesday 7
 * [x] meetup w/ theo (+30)
+* [x] move wp
+* [x] rebuilt VPA
+* [x] lessive 1 (+10)
+* [x] lessive 2 (+10)
+* [x] caf (+20)
+* [x] vaccum clean (+5)
