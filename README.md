@@ -11,6 +11,7 @@
 
 
 # me
+* [ ] notes abt BG OST !
 * [ ] cv (+100)
 * [ ] mail julien vdo (+15)
 * [ ] mail julien chroniques (+20)
