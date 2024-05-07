@@ -28,7 +28,6 @@
 * [ ] discourse
 
 # www
-* [ ] meetup w/ theo (+30)
 
 # astroturf
 
@@ -77,3 +76,6 @@
 ##### sunday 5
 #### week 2
 ##### monday 6
+* [x] meetup w/ theo (+30)
+##### monday 7
+* [x] meetup w/ theo (+30)
