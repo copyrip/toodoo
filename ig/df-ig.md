@@ -13,3 +13,16 @@ Pourquoi devrait-on être obligé.e.s de subir les réels, des pubs et des post 
 
 
 "Distraction Free" instagram also applies a kind of productivist component to this kind of behavior. But beware, fighting attention capitalism while reinforcing our control of dopamine cycles ISN'T A LIFE HACK FOR U TO BE MORE PRODUCTIVE !
+
+
+MAKE WEBSITES
+
+and if u don't know how,
+ask around u,
+ask me, irl
+or by email → martin@copyright.rip
+even here in the cyber overstimulating mall !
+
+look at websites !
+when finding an artist you like → rush to the link in bio !
+
