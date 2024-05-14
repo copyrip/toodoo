@@ -86,3 +86,11 @@
 * [x] lessive 2 (+10)
 * [x] caf (+20)
 * [x] vaccum clean (+5)
+##### wensday 8
+##### thursday 9
+##### friday 10
+##### saturday 11
+##### sunday 12
+##### monday 13
+##### tuesday 14
+
