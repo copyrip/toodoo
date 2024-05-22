@@ -10,6 +10,13 @@
 * did I learn ?
 
 
+# today (22 05)
+* cv to tumo
+* mail to friche
+* eukairos
+* idea magic 
+
+
 # me
 * [ ] notes abt BG OST !
 * [ ] cv (+100)
@@ -93,4 +100,6 @@
 ##### sunday 12
 ##### monday 13
 ##### tuesday 14
+...
+
 
