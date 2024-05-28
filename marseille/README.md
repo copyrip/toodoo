@@ -21,3 +21,23 @@
 * real time communication → signal
 * communication → email, instagram
 
+laboratoire sauvage, (desorceled)
+sabotage
+militance
+infokiosk
+information
+dead drop
+local web
+posters
+tutoriels
+videos
+livestreams
+radios
+
+## what link with non-a ?
+* non-adulte
+* non-apte
+* non-admis
+* non-arch
+
+
