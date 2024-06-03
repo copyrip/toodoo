@@ -22,6 +22,8 @@
 * communication → email, instagram
 
 laboratoire sauvage, (desorceled)
+emission TV ?
+maison d'édition
 sabotage
 militance
 infokiosk
@@ -39,5 +41,9 @@ radios
 * non-apte
 * non-admis
 * non-arch
+
+## friends
+* https://lazonemarseille.com/
+* 
 
 
