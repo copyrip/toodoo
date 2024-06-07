@@ -46,4 +46,10 @@ radios
 * https://lazonemarseille.com/
 * 
 
+## rezo, sous loc
 
+Hello _______ !
+Je vois que tu cherches à sous louer ton appart du __ au __ dans le quartier _____ 
+
+J'imagine que ce sont des raisons finnancieres qui t'ont poussé à mettre en sous loc ton appart,
+mais si jamais ce n'est pas le cas, on à une solution parfaite pour remplir ton appart pendant ton absence.
