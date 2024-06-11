@@ -53,3 +53,12 @@ Je vois que tu cherches à sous louer ton appart du __ au __ dans le quartier __
 
 J'imagine que ce sont des raisons finnancieres qui t'ont poussé à mettre en sous loc ton appart,
 mais si jamais ce n'est pas le cas, on à une solution parfaite pour remplir ton appart pendant ton absence.
+
+## after
+
+Hello ..... 
+
+Je t'écris pour donner suite à notre appel. Si jamais tu changes d'avis et que tu as envie de sortir ces jeunes de la rue, n'hésites pas à nous contacter !
+
+bien à toi, 
+Martin !
