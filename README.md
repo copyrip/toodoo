@@ -1,4 +1,6 @@
-* [ ] vider valise
-* [ ] comptes non-a
-* [ ] facture free
-* [ ] c'était quand ça encore ?
+* [ ] Actualisation Pole Emploi
+* [ ] comptes non-a web
+* [ ] chaudiere
+* [x] vider valise
+* [x] comptes non-a
+* [x] facture free
