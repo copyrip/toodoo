@@ -24,6 +24,7 @@ Puis IA prédictive, plus juste analyser mais projeter pour anticiper.
 * ?? pareil qu'isa
 * mu: plan de reco, contenu de formation, synthetisation de docs
 * olive: midjourney par curiosité en tant que graphiste
+* madeleine: quand je suis pressée, mais je l'utilise peu
 
 
 ## META
