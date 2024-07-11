@@ -46,6 +46,12 @@ radios
 * https://lazonemarseille.com/
 * 
 
+## PHOCEWARE
+* install lineage os
+* repair signal
+* help with hard and software
+
+
 ## rezo, sous loc
 
 Hello _______ !

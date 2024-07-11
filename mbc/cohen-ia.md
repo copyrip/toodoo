@@ -54,8 +54,33 @@ token français plus lourd que EN
 5 centrales nucleaires pour 1 data center
 https://www.lemondeinformatique.fr/actualites/lire-microsoft-impose-des-sauvegardes-onedrive-automatiques-%C2%A0-94126.html
 
+## workflows
+
+Prompt engineering → assistant → RAG → Fine Tuning
+
+* comment integrer de nouvelles données dans des modèles ?A
+
+## Structure d'un prompt
+
+* Un role pour une expertise
+* Fournir le contexte d'une tache
+* Specifier tache précise à accomplir
+
+### R C T
+* Role
+* Contexte
+* Tache
+
+Analyse, optimise, ...
+
+https://medium.com/@slakhyani20/10-chatgpt-prompt-engineering-frameworks-you-need-to-know-41d4b76ed384
+
+Livre blanc → https://automatisia.fr/wp-content/uploads/2024/02/Livre-blanc-IAAutomatisation.pdf
+
 
 
 
 ## META
 * je me présente, "30 ans de geekance". (confiance, trust)
+* dev,
+* inspi apple diapo keynote
