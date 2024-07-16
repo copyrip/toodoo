@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Cursor Tracker</title>
+<style type="text/css">
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cursor {
+  transform:rotate(235deg);
+  font-size:13pt;
+  color:white;
+  border-radius:1px solid black;
+  text-shadow:1px 1px 3px grey;
+  -webkit-text-stroke:1px black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    /*
+    background-color: red;
+    */
+    position: absolute;
+    pointer-events: none;
+}
+</style>
+</head>
+<body>
+    <div id="cursor-container"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+    const sessionId = Math.random().toString(36).substr(2, 9);
+    let lastX = 0;
+    let lastY = 0;
+
+    function updateCursorPosition(e) {
+        const x = e.clientX;
+        const y = e.clientY;
+
+        if (Math.abs(x - lastX) > 5 || Math.abs(y - lastY) > 5) {
+            $.ajax({
+                url: 'update_cursor.php',
+                method: 'POST',
+                data: { sessionId: sessionId, x: x, y: y },
+                success: function(response) {
+                    console.log('Cursor position updated');
+                }
+            });
+
+            lastX = x;
+            lastY = y;
+        }
+    }
+
+    $(document).mousemove(updateCursorPosition);
+
+    function getCursors() {
+        $.ajax({
+            url: 'get_cursors.php',
+            method: 'GET',
+            dataType: 'json',
+            success: function(cursors) {
+                $('#cursor-container').empty();
+                cursors.forEach(function(cursor) {
+                    if (cursor.session_id !== sessionId) {
+                        $('#cursor-container').append(`<div class="cursor" style="left:${cursor.x}px;top:${cursor.y}px;">➤</div>`);
+                    }
+                });
+            }
+        });
+    }
+
+    setInterval(getCursors, 100);
+});
+    </script>
+</body>
+</html>
