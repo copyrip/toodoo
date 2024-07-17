@@ -29,3 +29,5 @@ generators ---> work by me ---> output (+ various outputs)
     * tarot cards
     * scrabble letters
 
+# notes
+* penser à une piste de dès, ou d'autres formes de dès !
