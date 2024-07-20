@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Description">
+    <meta name="author" content="martin@copyright.rip">
+
+    <title>Page Title</title>
+
+    <!--<link rel="stylesheet" href="https://copyright.rip/reset.css">-->
+    <link rel="stylesheet" href="css/style.css">
+<style>
+* {
+  font-size:24pt;
+  color:grey;
+}
+
+
+</style>
+  </head>
+  <body>
+    <pre>
+<span>
+		x ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ x
+		| oh tyé un manstre sasukéw ! |
+		x ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ x
+				\    
+				 \
+				  \
+				  </span>
+
+				٩(╬ʘ益ʘ╬)۶
+	   + - - - - - - +
+	   |  merci 3   |
+	   + - - - - - - +
+
+	 (♡˙︶˙♡)
+
+    </pre>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js">
+    </script>
+    <script>
+      document.querySelectorAll('pre span').forEach(span => span.innerHTML = Array.from(span.textContent).map((char, i) => `<span style="display:inline-block; transform:rotate(${Math.sin(i) * 20}deg); animation: vibrate 0.3s ease-in-out infinite alternate" onclick="this.style.animationPlayState=this.style.animationPlayState==='paused'?'running':'paused'">${char}</span>`).join('')) && document.head.insertAdjacentHTML('beforeend', '<style>@keyframes vibrate{0%{transform:translate(-1px,-1px) rotate(var(--rotation))}100%{transform:translate(1px,1px) rotate(var(--rotation))}}</style>');
+    </script>
+  </body>
+</html>
+
