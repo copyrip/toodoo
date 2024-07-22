@@ -122,10 +122,109 @@
   font-weight: normal;
   font-style: normal;
 }
-/*
-url("./ouvrieres/Ouvrieres-exploratrices.woff" format("woff"),
-url("./ouvrieres/Ouvrieres-exploratrices.woff2" format("woff"),
-url("./ouvrieres/Ouvrieres-rassasiees.woff" format("woff"),
-url("./ouvrieres/Ouvrieres-rassasiees.woff2" format("woff"),
-url("./ouvrieres/Ouvrieres-soldates.woff" format("woff"),
-url("./ouvrieres/Ouvrieres-soldates.woff2" format("woff"),
+/* Pilowlava 
+ * Anton Moglia, Jérémy Landes, with the contribution of Maksym Kobuzan
+ */
+
+@font-face {
+  font-family: "Pilowlava Atome";
+  src:
+  url("./pilowlava/Pilowlava-Atome.woff") format("woff"),
+  url("./pilowlava/Pilowlava-Atome.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pilowlava Regular";
+  src:
+  url("./pilowlava/Pilowlava-Regular.woff") format("woff"),
+  url("./pilowlava/Pilowlava-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Bianzhidai 
+ * Xiaoyuan Gao, notyourtypefoundry.
+*/
+
+@font-face {
+  font-family: "Bianzhidai Base";
+  src:
+url("./bianzhidai/bianzhidai-Base.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bianzhidai Brush";
+  src:
+url("./bianzhidai/bianzhidai-Brush.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Bianzhidai Bubble";
+  src:
+url("./bianzhidai/bianzhidai-Bubble.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bianzhidai Cloud";
+  src:
+url("./bianzhidai/bianzhidai-Cloud.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bianzhidai Cube";
+  src:
+url("./bianzhidai/bianzhidai-Cube.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bianzhidai Messier";
+  src:
+url("./bianzhidai/bianzhidai-Messier.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bianzhidai Messy";
+  src:
+url("./bianzhidai/bianzhidai-Messy.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bianzhidai Pearl";
+  src:
+url("./bianzhidai/bianzhidai-Pearl.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bianzhidai Ring";
+  src:
+url("./bianzhidai/bianzhidai-Ring.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bianzhidai Stitches";
+  src:
+url("./bianzhidai/bianzhidai-Stitches.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

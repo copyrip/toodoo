@@ -1,3 +1,13 @@
+
+LUNDI 22 JUILLET 2024
+* [ ] Carla ?
+    * Dr. Layoun
+    * verif audit
+    * Dr. Baptista
+    * idea
+    * 100e / month for layoun ?
+* [ ] plier linge 
+---
 * [ ] repail /work/ repo ?
 * [ ] Actualisation Pole Emploi
 * [ ] comptes non-a web
