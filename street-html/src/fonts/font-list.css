@@ -1,0 +1,131 @@
+/* --- F O N T 
+ *    C A T A L O G
+ *    (for street devs)
+ *
+ *    created: 2024-07-22
+ */
+
+
+
+/* Frank Adebiaye, with the contribution of Anton Moglia, Ariel Martín Pérez.
+ *
+ *
+ * */ 
+@font-face {
+  font-family: "Lineal Black";
+  src:
+  url("./lineal/Lineal-Black.woff") format("woff"),
+  url("./lineal/Lineal-Black.woff2") format("woff2");
+  font-weight: black;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lineal Bold";
+  src:
+  url("./lineal/Lineal-Bold.woff") format("woff"),
+  url("./lineal/Lineal-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lineal Heavy";
+  src:
+  url("./lineal/Lineal-Heavy.woff") format("woff"),
+  url("./lineal/Lineal-Heavy.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lineal Light";
+  src:
+  url("./lineal/Lineal-Light.woff") format("woff"),
+  url("./lineal/Lineal-Light.woff2") format("woff2");
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lineal Medium";
+  src:
+  url("./lineal/Lineal-Medium.woff") format("woff"),
+  url("./lineal/Lineal-Medium.woff2") format("woff2");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lineal Regular";
+  src:
+  url("./lineal/Lineal-Regular.woff") format("woff"),
+  url("./lineal/Lineal-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lineal Thin";
+  src:
+  url("./lineal/Lineal-Thin.woff") format("woff"),
+  url("./lineal/Lineal-Thin.woff2") format("woff2");
+  font-weight: thin;
+  font-style: normal;
+}
+
+/* Ouvrieres !
+ * by Laure Aziz
+ */
+
+@font-face {
+  font-family: "Ouvrieres Affamees";
+  src:
+  url("./ouvrieres/Ouvrieres-affamees.woff") format("woff"),
+  url("./ouvrieres/Ouvrieres-affamees.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ouvrieres Agricultrices";
+  src:
+  url("./ouvrieres/Ouvrieres-agricultrices.woff") format("woff"),
+  url("./ouvrieres/Ouvrieres-agricultrices.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ouvrieres Exploratrices";
+  src:
+  url("./ouvrieres/Ouvrieres-exploratrices.woff") format("woff"),
+  url("./ouvrieres/Ouvrieres-exploratrices.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ouvrieres Rassasiees";
+  src:
+  url("./ouvrieres/Ouvrieres-rassasiees.woff") format("woff"),
+  url("./ouvrieres/Ouvrieres-rassasiees.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ouvrieres Soldates";
+  src:
+  url("./ouvrieres/Ouvrieres-soldates.woff") format("woff"),
+  url("./ouvrieres/Ouvrieres-soldates.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+url("./ouvrieres/Ouvrieres-exploratrices.woff" format("woff"),
+url("./ouvrieres/Ouvrieres-exploratrices.woff2" format("woff"),
+url("./ouvrieres/Ouvrieres-rassasiees.woff" format("woff"),
+url("./ouvrieres/Ouvrieres-rassasiees.woff2" format("woff"),
+url("./ouvrieres/Ouvrieres-soldates.woff" format("woff"),
+url("./ouvrieres/Ouvrieres-soldates.woff2" format("woff"),

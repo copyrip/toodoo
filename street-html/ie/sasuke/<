@@ -15,43 +15,22 @@
   font-size:24pt;
   color:grey;
 }
-span.z {
-  display: inline-block;
-  animation: shake 0.5s infinite;
-}
 
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
 
 </style>
   </head>
   <body>
     <pre>
-
-┌∩┐(◣_◢)┌∩┐
-
-ON MAPELLE HENRRI
-
-
-		x ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ x
+<span>
+		x ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ x</span>
 		| oh tyé un manstre sasukéw ! |
-		x ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ x
+		</span>x ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ x
 				\    
 				 \
 				  \
+				  </span>
 
-				(<span class="z">╬</span>ʘ益ʘ<span class="z">╬</span>)
+				٩(╬ʘ益ʘ╬)۶
 	   + - - - - - - +
 	   |  merci 3   |
 	   + - - - - - - +
@@ -63,7 +42,6 @@ ON MAPELLE HENRRI
     <script src="js/script.js">
     </script>
     <script>
-      document.querySelector('span.a').innerHTML = document.querySelector('span.a').textContent.split('').map(char => `<span style="display:inline-block;animation:shake .5s infinite">${char}</span>`).join('');
       document.querySelectorAll('pre span').forEach(span => span.innerHTML = Array.from(span.textContent).map((char, i) => `<span style="display:inline-block; transform:rotate(${Math.sin(i) * 20}deg); animation: vibrate 0.3s ease-in-out infinite alternate" onclick="this.style.animationPlayState=this.style.animationPlayState==='paused'?'running':'paused'">${char}</span>`).join('')) && document.head.insertAdjacentHTML('beforeend', '<style>@keyframes vibrate{0%{transform:translate(-1px,-1px) rotate(var(--rotation))}100%{transform:translate(1px,1px) rotate(var(--rotation))}}</style>');
     </script>
   </body>

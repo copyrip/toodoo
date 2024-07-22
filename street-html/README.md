@@ -28,6 +28,12 @@ generators ---> work by me ---> output (+ various outputs)
     * hi-king
     * tarot cards
     * scrabble letters
+* sac de touches
+
+## process
+* ...
+* ...
+* stamp !
 
 # notes
 * penser à une piste de dès, ou d'autres formes de dès !
