@@ -95,6 +95,7 @@ Mo Tu We Th Fr Sa Su
 	    <h2 class="day-title"><?= date("F j, Y", strtotime($date)) ?></h2>
 	    <div class="thumbnails-container">
 		<?php foreach ($dirs as $dir => $time): ?>
+		<a href="<?=htmlspecialchars($dir) ?>">
 		    <div class="thumbnail-container">
 			<h3><?= htmlspecialchars($dir) ?>'s Website</h3>
 			<div class="thumbnail">
@@ -104,6 +105,7 @@ Mo Tu We Th Fr Sa Su
 			    Created at: <?= date("H:i:s", $time) ?>
 			</div>
 		    </div>
+</a>
 		<?php endforeach; ?>
 	    </div>
 	</section>
