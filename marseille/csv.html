@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live CSV Table Display</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Live CSV Table Content</h1>
+    <div id="tableContainer"></div>
+
+    <script>
+        let previousContent = '';
+
+        function fetchAndUpdateTable() {
+            $.ajax({
+                url: 'https://ethercalc.net/marseille.csv',
+                dataType: 'text',
+                success: function(data) {
+                    if (data !== previousContent) {
+                        previousContent = data;
+                        updateTable(data);
+		      console.log(data);
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error('Error loading CSV:', error);
+                }
+            });
+        }
+
+        function updateTable(data) {
+		      console.log(data);
+            let rows = data.split('\n');
+            let table = '<table>';
+            
+            for (let i = 0; i < rows.length; i++) {
+                let cells = rows[i].split(',');
+                if (i === 0) {
+                    table += '<thead><tr>';
+                    for (let j = 0; j < cells.length; j++) {
+                        table += '<th>' + cells[j] + '</th>';
+                    }
+                    table += '</tr></thead><tbody>';
+                } else {
+                    table += '<tr>';
+                    for (let j = 0; j < cells.length; j++) {
+                        table += '<td>' + cells[j] + '</td>';
+                    }
+                    table += '</tr>';
+                }
+            }
+            
+            table += '</tbody></table>';
+            $('#tableContainer').html(table);
+        }
+
+        $(document).ready(function() {
+            fetchAndUpdateTable();
+            setInterval(fetchAndUpdateTable, 1000); // Update every 1000ms (1 second)
+        });
+    </script>
+</body>
+</html>
